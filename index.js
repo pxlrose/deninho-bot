@@ -93,6 +93,14 @@ function message(target, context, message, isBot) {
                 `/me ${alvoBan[1]} foi banido por não deixar no lurk...`
               );
               break;
+                  
+            case 6:
+              client.say(
+                target,
+                `/me ${alvoBan[1]} foi banido por não lavar as mãos depois de ir ao banheiro`
+              );
+              break;
+                  
             default:
               client.say(
                 target,
